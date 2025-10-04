@@ -641,7 +641,7 @@ end
                             end)
                             KeybindFrame.MouseEnter:Connect(function()
                                 keybind_in2 = true
-                                library:tween(KeybindFrame, TweenInfo.new(0.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {BorderColor3 = Color3.fromRGB(84, 101, 255)})
+                                library:tween(KeybindFrame, TweenInfo.new(0.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {BorderColor3 = Color3.fromRGB(255, 255, 255)})
                             end)
                             KeybindFrame.MouseLeave:Connect(function()
                                 keybind_in2 = false
@@ -1930,7 +1930,7 @@ end
                         }, SliderButton)
 
                         local UIGradient = library:create("UIGradient", {
-                            Color = ColorSequence.new{ColorSequenceKeypoint.new(0, Color3.fromRGB(79, 95, 239)), ColorSequenceKeypoint.new(1, Color3.fromRGB(56, 67, 163))},
+                            Color = ColorSequence.new{ColorSequenceKeypoint.new(0, Color3.fromRGB(200, 200, 200)), ColorSequenceKeypoint.new(1, Color3.fromRGB(255, 255, 255))},
                             Rotation = 90,
                         }, SliderFrame)
 
